@@ -1,0 +1,229 @@
+
+body{
+  background-color: #282c34;
+  color:#fff;
+  text-decoration: none;
+}
+.css-1loxuh3{
+  background-color: hsl(222, 14%, 10%);
+
+
+}
+
+.item{
+  position: relative;
+}
+.css-1hu70yk{
+  display:block;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+
+
+}
+.css-lpiycv{
+  height: 100%;
+  padding-top: 12px;
+}
+.css-714dwk{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+}
+.css-1e8x600{
+  margin-right: 0.5rem;
+}
+.css-1og5p3u{
+  text-decoration: none;
+}
+.css-1og5p3u{
+  color: #61dafb;
+}
+
+
+/* Honme page star code */
+
+
+.css-1ihkopo{
+  padding-top: 95px;
+  padding-bottom: 85px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.css-13azwyo{
+  position: relative;
+}
+.css-tctv7l{
+  max-width: 1260px;
+
+}
+.css-159p4b7{
+    color: #61dafb;
+    text-align: center;
+    padding-left: 20%;
+    margin: 0;
+    font-size: 60px;
+    letter-spacing: 0.01em;
+}
+.css-1s44ra{
+  padding-left: 37%;
+  font-size: 30px;
+  letter-spacing: 0.01em;
+  font-weight: 200;
+}
+
+
+/* navbar menu code start */
+.header{
+    background-color: #20232a;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.css-tctv7l{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.css-heonw3{
+  display: flex;
+
+  align-items: center;
+  height: 60px;
+  justify-content: center;
+  background-color: #20232a;
+
+
+}
+.css-4ivotw {
+  width: calc(100% / 6);
+  
+}
+.css-4ivotw {
+  text-decoration: none;
+  display: flex;
+  margin-right: 10px;
+
+  align-items: center;
+  color: #61dafb;
+  align-items: center;
+  
+}
+.css-184keb2 {
+  color: inherit;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  
+}
+
+.css-79txt3 {
+  flex: 1;
+  display: flex;
+}
+.css-hobwqm {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+.algolia-autocomplete{
+  position: relative;
+    display: inline-block;
+    direction: ltr;
+}
+.css-7vmqep {
+  fill: currentColor;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+ 
+}
+.css-7dpbpx{
+  width: 100%;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: inherit;
+  position: relative;
+  padding: 6px 4px 4px 29px;
+  background-image: url("./images/search.svg");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  color:#fff;
+
+
+
+}
+.ds-dropdown-menu {
+  top: -6px;
+  border-radius: 4px;
+  margin: 6px 0 0;
+  padding: 0;
+  text-align: left;
+  height: auto; 
+  position: relative;
+  background: transparent;
+  border: none;
+  z-index: 999;
+  max-width: 600px;
+  min-width: 500px;
+}
+
+.css-nypjs8{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: auto;
+
+}
+.css-zvm479{
+  padding: 5px 10px;
+  white-space: nowrap;
+  font-size: 15px;
+}
+.css-1upvlu3 {
+   display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.css-1rsw1pf{
+  margin-left: 0.5rem;
+}
+.css-6oo1gu{
+  padding: 5px 10px;
+  margin-left: 8px;
+  font-size: 13px;
+}
+
+.css-1yyhkcy{
+  margin-left: 5px;
+  vertical-align: -2px;
+  color: #6B6B6B;
+}
+/* .css-c4d79v {
+  fill: currentColor;
+} */
+
