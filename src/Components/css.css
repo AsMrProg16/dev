@@ -4,7 +4,7 @@ body{
   color:#fff;
   text-decoration: none;
 }
-.css-1loxuh3{
+.nav{
   background-color: hsl(222, 14%, 10%);
 
 
@@ -13,7 +13,7 @@ body{
 .item{
   position: relative;
 }
-.css-1hu70yk{
+.nav_top{
   display:block;
   height: 50px;
   font-size: 18px;
@@ -21,7 +21,7 @@ body{
 
 
 }
-.css-lpiycv{
+.nav_css{
   height: 100%;
   padding-top: 12px;
 }
@@ -32,49 +32,14 @@ body{
   text-decoration: none;
 
 }
-.css-1e8x600{
+.nav_title{
   margin-right: 0.5rem;
 }
-.css-1og5p3u{
-  text-decoration: none;
-}
-.css-1og5p3u{
+
+.nav_text{
   color: #61dafb;
 }
 
-
-/* Honme page star code */
-
-
-.css-1ihkopo{
-  padding-top: 95px;
-  padding-bottom: 85px;
-  max-width: 1500px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-}
-.css-13azwyo{
-  position: relative;
-}
-.css-tctv7l{
-  max-width: 1260px;
-
-}
-.css-159p4b7{
-    color: #61dafb;
-    text-align: center;
-    padding-left: 20%;
-    margin: 0;
-    font-size: 60px;
-    letter-spacing: 0.01em;
-}
-.css-1s44ra{
-  padding-left: 37%;
-  font-size: 30px;
-  letter-spacing: 0.01em;
-  font-weight: 200;
-}
 
 
 /* navbar menu code start */
@@ -102,49 +67,45 @@ body{
 
 
 }
-.css-4ivotw {
+.rx_title {
   width: calc(100% / 6);
   
 }
-.css-4ivotw {
+.rx_title {
   text-decoration: none;
   display: flex;
   margin-right: 10px;
-
   align-items: center;
   color: #61dafb;
   align-items: center;
   
 }
-.css-184keb2 {
+.rx_css{
   color: inherit;
   margin-left: 10px;
   font-weight: 700;
   font-size: 20px;
   line-height: 20px;
-  
 }
 
-.css-79txt3 {
+.nav_title_css {
   flex: 1;
   display: flex;
 }
-.css-hobwqm {
+
+.nav_item_css {
     padding-left: 20px;
     padding-right: 20px;
     font-size: 18px;
-    color: #fff;
-    text-decoration: none;
-    
+   
+  }
+  
+a:hover{
+  color: #61dafb;
+  opacity: 1;
+  transition: 0.4s;
 }
-
-
-.algolia-autocomplete{
-  position: relative;
-    display: inline-block;
-    direction: ltr;
-}
-.css-7vmqep {
+.form_css {
   fill: currentColor;
   display: flex;
   flex: 0 0 auto;
@@ -152,27 +113,33 @@ body{
   align-items: center;
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+
+}
+
+.form_item_csss{
+  position: relative;
+    display: inline-block;
+    direction: ltr;
  
 }
-.css-7dpbpx{
+.css-7dpbpx {
   width: 100%;
   appearance: none;
   background: transparent;
   border: 0;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 300;
   font-family: inherit;
   position: relative;
-  padding: 6px 4px 4px 29px;
-  background-image: url("./images/search.svg");
-  background-size: 20px 20px;
+  padding: 4px 4px 4px 29px;
+  background-image: url(../Components/images/search_icon.png);
+  background-size: 16px 16px;
   background-repeat: no-repeat;
   background-position-y: center;
-  color:#fff;
-
-
+  background-position-x: 5px;
 
 }
+
 .ds-dropdown-menu {
   top: -6px;
   border-radius: 4px;
@@ -188,42 +155,94 @@ body{
   min-width: 500px;
 }
 
-.css-nypjs8{
+.menu_item{
     display: flex;
     align-items: center;
     justify-content: flex-end;
     width: auto;
-
 }
-.css-zvm479{
+.css_item_menu{
   padding: 5px 10px;
   white-space: nowrap;
-  font-size: 15px;
+  font-size: 14px;
 }
-.css-1upvlu3 {
-   display: -webkit-flex;
+.languages_css {
   display: flex;
   align-items: center;
   padding: 5px 10px;
   white-space: nowrap;
   font-size: 14px;
 }
-
-.css-1rsw1pf{
+.css_fill {
+  fill: currentColor;
+}
+.css_langues{
   margin-left: 0.5rem;
 }
-.css-6oo1gu{
+.css_git{
   padding: 5px 10px;
   margin-left: 8px;
   font-size: 13px;
 }
 
-.css-1yyhkcy{
+.css_svg {
   margin-left: 5px;
   vertical-align: -2px;
   color: #6B6B6B;
 }
-/* .css-c4d79v {
-  fill: currentColor;
-} */
 
+/* Honme page star code */
+
+
+.css-1ihkopo, [data-css-1ihkopo] {
+  padding-top: 95px;
+  padding-bottom: 85px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.css-13azwyo{
+  position: relative;
+}
+.css-tctv7l{
+  max-width: 1260px;
+
+}
+.css-159p4b7{
+    color: #61dafb;
+    text-align: center;
+    margin: 0;
+    font-size: 60px;
+    letter-spacing: 0.01em;
+}
+.css-1s44ra{
+  padding-top: 20px;
+  font-size: 30px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  font-weight: 200;
+}
+.css-1053yfl {
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.css-1ezwgyu{
+
+  padding-right: 70px;
+  padding-left: 7px;
+}
+.css-1053yfl {
+  display: inline-block;
+  font-size: 16px;
+  background-color: #61dafb;
+  color: #000000;
+  padding: 10px 25px;
+  white-space: nowrap;
+  transition: background-color 0.2s ease-out;
+  
+}
+.css-1ezwgyu{
+  padding-left: 15px;
+}
