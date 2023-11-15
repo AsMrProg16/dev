@@ -8,6 +8,8 @@
   -moz-osx-font-smoothing: grayscale;
   text-decoration: none;
   color:#fff;
+  box-sizing: inherit;
+
   
 }
 

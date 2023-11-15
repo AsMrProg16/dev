@@ -192,7 +192,10 @@ a:hover{
 }
 
 /* Honme page star code */
+.css-17t02fm{
+  background-color: #282c34;
 
+}
 
 .css-1ihkopo, [data-css-1ihkopo] {
   padding-top: 95px;
@@ -202,9 +205,20 @@ a:hover{
   margin-right: auto;
   position: relative;
 }
-.css-13azwyo{
-  position: relative;
+.css-1ihkopo::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjZmZmIi8+CiAgPGcgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K);
+    background-repeat: no-repeat;
+    background-position: 100% 100px;
+    background-size: 50% auto;
+    opacity: 0.05;
 }
+
 .css-tctv7l{
   max-width: 1260px;
 
@@ -225,24 +239,109 @@ a:hover{
 }
 .css-1053yfl {
   font-size: 20px;
-  padding-top: 15px;
+  padding-top: 35px;
   padding-bottom: 15px;
 }
-.css-1ezwgyu{
-
-  padding-right: 70px;
+.css-1k80xq8{
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  flex: 0 1 auto;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.css-1ezwgyu {
+  text-align: right;
+  padding-right: 7px;
   padding-left: 7px;
 }
-.css-1053yfl {
+.css-v4xx2e{
+  padding-top: 60px;
+}
+
+
+.css-1053yfl{
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: px;
   display: inline-block;
-  font-size: 16px;
   background-color: #61dafb;
   color: #000000;
   padding: 10px 25px;
-  white-space: nowrap;
-  transition: background-color 0.2s ease-out;
-  
 }
-.css-1ezwgyu{
-  padding-left: 15px;
+.css-1ezwgyu {
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.css-13foh4g {
+  display: inline-block;
+  font-size: 16px;
+  color: #61dafb;
+}
+
+/* HOme Text css code start */
+.css-tctv7l {
+  width: 90%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.css-18jayfr {
+  margin-top: 60px;
+  margin-bottom: 65px;
+
+}
+.css-5uoymd, [data-css-5uoymd] {
+  /* display: -webkit-box; */
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  /* display: flex; */
+  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+}
+.css-1vcfx3l {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 33%;
+  margin-left: 40px;
+  -webkit-box-orient: vertical; 
+-webkit-box-direction: normal; 
+   -webkit-flex-direction: column;
+   -webkit-flex: 0 1 33%;
+}
+.css-1qu2cfp.css-1qu2cfp {
+  margin-bottom: 20px;
+  color: #6B6B6B;
+  padding-top: 0;
+  font-weight: 300;
+  font-size: 20px;
+}
+.css-6nf64v h3{
+  content: " ";
+  display: block;
+  padding-top: 90px;
+  margin-top: -45px;
+}
+.css-6nf64v p {
+  margin-top: 30px;
+  font-size: 17px;
+  line-height: 1.7;
+  max-width: 42em;
+  /* color:#20232a; */
+}
+.css-6nf64v a:not(.anchor):not(.gatsby-resp-image-link), [data-css-6nf64v] a:not(.anchor):not(.gatsby-resp-image-link) {
+  background-color: rgba(187,239,253,0.3);
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  color: #1a1a1a;
 }
